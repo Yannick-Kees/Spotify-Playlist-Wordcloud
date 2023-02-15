@@ -13,7 +13,6 @@ sp = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials())
 pl_id = 'spotify:playlist:0xBYY3VdyBcvqT9i4PLuQX' # Open Test Playlist
 offset = 0
 artists_dictn = {}
-# https://open.spotify.com/playlist/4RuhBX5ngl8b6rG29rKCij?si=d4611193f2ec490d <- starred
 
 while True:
     # Load a batch of 100 songs each iteration
